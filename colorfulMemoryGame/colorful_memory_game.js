@@ -76,5 +76,7 @@ function startGameTimer(timeLeft) {
             startbtn.disabled = false;
         }
     }, 1000);
+    
 }
 startbtn.addEventListener('click', startGame);
+
